@@ -1,0 +1,1 @@
+# Tablica zadań koła naukowego
