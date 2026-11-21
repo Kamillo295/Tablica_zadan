@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" scale="1" border="0">
+  <diagram name="Strona-1" id="g2C08mf8cQDlklQqMJ52">
+    <mxGraphModel dx="1431" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UPDMYJovfyGZRCgCszbo-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Członek Koła (Wykonawca)" vertex="1">
+          <mxGeometry height="60" width="50" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Lider Projektu&amp;nbsp;&lt;div&gt;(Przewodniczący /&amp;nbsp;&lt;/div&gt;&lt;div&gt;Koordynator)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="50" x="60" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="390" x="290" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC3 Utworzenie zadania i przypisanie wykonawcy" vertex="1">
+          <mxGeometry height="80" width="120" x="315" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC4 Edycja i usunięcie zadenia" vertex="1">
+          <mxGeometry height="80" width="120" x="315" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC5 Zmiana statusu zadania" vertex="1">
+          <mxGeometry height="80" width="120" x="315" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="UPDMYJovfyGZRCgCszbo-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC6 Zgłoszenie blokady i opisanie problemu" vertex="1">
+          <mxGeometry height="80" width="120" x="315" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&amp;nbsp;UC1 Wyświetlanie tablicy zadań" vertex="1">
+          <mxGeometry height="80" width="120" x="315" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&amp;nbsp;UC2 Filtrowanie zadań" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-3" edge="1" parent="1" source="mY1PY8KzzSsayDvzGXnH-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashPattern=12 12;dashed=1;" target="mY1PY8KzzSsayDvzGXnH-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="440" as="sourcePoint" />
+            <mxPoint x="530" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-4" connectable="0" parent="mY1PY8KzzSsayDvzGXnH-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="0.25" y="-2" as="geometry">
+            <mxPoint x="-15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC8 Zarządzanie blokadą (wznowienie/ Anulowanie)" vertex="1">
+          <mxGeometry height="80" width="150" x="300" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="UC7 Weryfikacja zadani&lt;div&gt;(Zatwierdzenie/ Cofnięcie)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="300" y="571" as="geometry" />
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-7" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mY1PY8KzzSsayDvzGXnH-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="280" as="sourcePoint" />
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-8" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UPDMYJovfyGZRCgCszbo-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="280" as="sourcePoint" />
+            <mxPoint x="300" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-9" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UPDMYJovfyGZRCgCszbo-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="245" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-10" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mY1PY8KzzSsayDvzGXnH-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="400" as="sourcePoint" />
+            <mxPoint x="635" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-11" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mY1PY8KzzSsayDvzGXnH-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="500" as="sourcePoint" />
+            <mxPoint x="405" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-13" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UPDMYJovfyGZRCgCszbo-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="450" as="sourcePoint" />
+            <mxPoint x="270" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-14" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mY1PY8KzzSsayDvzGXnH-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="450" as="sourcePoint" />
+            <mxPoint x="270" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mY1PY8KzzSsayDvzGXnH-15" edge="1" parent="1" source="UPDMYJovfyGZRCgCszbo-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UPDMYJovfyGZRCgCszbo-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="450" as="sourcePoint" />
+            <mxPoint x="270" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
