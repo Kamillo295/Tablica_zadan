@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Architektura-Systemu" id="FV9ZTG0v6-R_EqgDCaTz">
+    <mxGraphModel dx="1369" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AteckWLjpKryJTCKpmUF-26" parent="1" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#2e7d32;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Użytkownik&lt;/b&gt;&lt;br&gt;(Lider Projektu / Członek Koła)" vertex="1">
+          <mxGeometry height="90" width="200" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-27" parent="1" style="html=1;whiteSpace=wrap;strokeWidth=1.5;verticalAlign=top;fillColor=#ffffff;strokeColor=#424242;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Aplikacja Konsolowa „Kółko Zadań” (C#&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="400" width="440" x="330" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-28" parent="AteckWLjpKryJTCKpmUF-27" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#e3f2fd;strokeColor=#1565c0;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Interfejs Konsolowy (Terminal)&lt;/b&gt;&lt;br&gt;&lt;i&gt;Menu, widok tablicy Kanban i obsługa poleceń&lt;/i&gt;" vertex="1">
+          <mxGeometry height="85" width="370" x="35" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-29" parent="AteckWLjpKryJTCKpmUF-27" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#fff9c4;strokeColor=#f9a825;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Logika Aplikacji&lt;/b&gt;&lt;br&gt;&lt;i&gt;Zarządzanie zadaniami, zmiana statusów i uprawnienia ról&lt;/i&gt;" vertex="1">
+          <mxGeometry height="90" width="370" x="35" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-30" parent="AteckWLjpKryJTCKpmUF-27" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#fff3e0;strokeColor=#ef6c00;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Moduł Obsługi Danych&lt;/b&gt;&lt;br&gt;&lt;i&gt;Odczyt i zapis stanu tablicy w formacie JSON&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="370" x="35" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-31" edge="1" parent="AteckWLjpKryJTCKpmUF-27" source="AteckWLjpKryJTCKpmUF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=block;startSize=8;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;targetPerimeterSpacing=4;sourcePerimeterSpacing=4;" target="AteckWLjpKryJTCKpmUF-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-32" edge="1" parent="AteckWLjpKryJTCKpmUF-27" source="AteckWLjpKryJTCKpmUF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=block;startSize=8;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;strokeWidth=2;targetPerimeterSpacing=4;sourcePerimeterSpacing=4;" target="AteckWLjpKryJTCKpmUF-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-33" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#2e7d32;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;Lokalny Plik JSON&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Baza zadań i użytkowników)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="120" width="190" x="870" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-34" edge="1" parent="1" source="AteckWLjpKryJTCKpmUF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=block;startSize=8;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=13;labelBackgroundColor=#eeeeee;fontFamily=Recursive;fontColor=#28253D;strokeWidth=2;targetPerimeterSpacing=4;sourcePerimeterSpacing=4;fontSource=https://fonts.googleapis.com/css?family=Recursive;" target="AteckWLjpKryJTCKpmUF-28" value="Polecenia / Widok">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="225" />
+              <mxPoint x="280" y="128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-35" edge="1" parent="1" source="AteckWLjpKryJTCKpmUF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=block;startSize=8;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=13;labelBackgroundColor=#eeeeee;fontFamily=Recursive;fontColor=#28253D;strokeWidth=2;targetPerimeterSpacing=4;sourcePerimeterSpacing=4;fontSource=https://fonts.googleapis.com/css?family=Recursive;" target="AteckWLjpKryJTCKpmUF-33" value="Zapis / Odczyt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="370" />
+              <mxPoint x="820" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-36" parent="1" style="html=1;whiteSpace=nowrap;strokeWidth=1;verticalAlign=top;fillColor=#f8f9fa;strokeColor=#757575;fontColor=#000000;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;dashed=1;dashPattern=5 5;fixDash=1;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="&lt;b&gt;LEGENDA&lt;/b&gt;" vertex="1">
+          <mxGeometry height="115" width="1030" x="30" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-37" parent="AteckWLjpKryJTCKpmUF-36" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#2e7d32;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="Aktor / Plik danych" vertex="1">
+          <mxGeometry height="55" width="220" x="25" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-38" parent="AteckWLjpKryJTCKpmUF-36" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#e3f2fd;strokeColor=#1565c0;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="Warstwa prezentacji (UI)" vertex="1">
+          <mxGeometry height="55" width="220" x="275" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-39" parent="AteckWLjpKryJTCKpmUF-36" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#fff9c4;strokeColor=#f9a825;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="Logika aplikacji" vertex="1">
+          <mxGeometry height="55" width="220" x="525" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AteckWLjpKryJTCKpmUF-40" parent="AteckWLjpKryJTCKpmUF-36" style="rounded=1;absoluteArcSize=1;arcSize=24;html=1;whiteSpace=wrap;strokeWidth=1.5;fillColor=#fff3e0;strokeColor=#ef6c00;fontColor=#000000;fontFamily=Recursive;fontSize=13;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https://fonts.googleapis.com/css?family=Recursive;" value="Warstwa dostępu do danych" vertex="1">
+          <mxGeometry height="55" width="230" x="775" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
